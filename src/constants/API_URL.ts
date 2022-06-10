@@ -1,0 +1,1 @@
+export const API_URL = 'https://acnhapi.com/v1/fossils'

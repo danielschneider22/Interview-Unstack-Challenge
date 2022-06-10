@@ -1,0 +1,46 @@
+.FossilCard {
+  list-style: none;
+  background-color: #ececec;
+  color: #424242;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2rem;
+  padding: 1rem .5rem;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.16), 0 1px 2px rgba(0,0,0,0.23);
+}
+
+.ImageSection > img{
+  height: 128px;
+  width: 128px;
+}
+
+.ImageSection {
+  margin: 0rem .75rem;
+  display: flex;
+  align-items: center
+}
+
+.TextSection {
+  text-align: left;
+}
+
+.MusuemPhrase {
+  margin: .75rem 0rem;
+}
+
+.Name, .Price {
+  margin: 0px;
+}
+
+/* - alternative layouts + styles for mobile */
+@media only screen and (max-width: 768px) { 
+  .FossilCard {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .TextSection {
+    text-align: center;
+  }
+}

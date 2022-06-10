@@ -1,0 +1,1 @@
+export const capitalizeFirstLetter = (str: string) => `${str[0]?.toLocaleUpperCase()}${str.substr(1)}`
